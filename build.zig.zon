@@ -1,0 +1,15 @@
+.{
+    .name = "zig-soloud",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.13.0",
+    .dependencies = .{
+        .@"soloud:sources" = .{
+            .url = "git+https://github.com/jarikomppa/soloud.git#e82fd32c1f62183922f08c14c814a02b58db1873",
+            .hash = "12207eb2692e31885bca2c19c95d01e25580a868155987bd8dd7dfa8e9c932e9df9e",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}

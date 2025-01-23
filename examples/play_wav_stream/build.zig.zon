@@ -1,0 +1,15 @@
+.{
+    .name = "play_wav_stream",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.13.0",
+    .dependencies = .{
+        .@"zig-soloud" = .{
+            .path = "../..",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
