@@ -1,5 +1,7 @@
 # zig-soloud
 
+Zig bindinds for [Soloud](https://github.com/jarikomppa/soloud).
+
 ```zig
     const zig_soloud_dep = b.dependency("zig-soloud", .{ .target = target, .optimize = optimize });
 
